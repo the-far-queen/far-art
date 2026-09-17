@@ -68,3 +68,18 @@ Per the contract in the parent [README.md](../README.md) and [AGENTS.md](../AGEN
 
 - `.github/workflows/ci.yml` + `.github/workflows/release.yml` — the
   jobs that exercise these trust + permission policies.
+
+
+## Note on GitHub Actions workflows
+
+The companion `.github/workflows/ci.yml` + `.github/workflows/release.yml`
+files exist locally but were NOT pushed in the initial commit because the
+PAT used for the push lacked the `workflow` scope (GitHub requires it for
+workflow files). To enable CI:
+
+1. Re-run the push with a workflow-scoped token, OR
+2. Add the workflows manually via the GitHub web UI (Settings → Actions
+   → New workflow → set up workflow yourself → paste from local file).
+3. Verify: `gh workflow list` shows `ci` and `release`.
+
+Both files are preserved on disk; only the push was restricted.
