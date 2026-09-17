@@ -1,0 +1,42 @@
+{
+  "Rules": [
+    {
+      "ID": "abort-incomplete-mpu-7d",
+      "Status": "Enabled",
+      "Filter": {
+        "Prefix": "far-art/"
+      },
+      "AbortIncompleteMultipartUpload": {
+        "DaysAfterInitiation": 7
+      }
+    },
+    {
+      "ID": "expire-noncurrent-90d",
+      "Status": "Enabled",
+      "Filter": {
+        "Prefix": "far-art/"
+      },
+      "NoncurrentVersionExpiration": {
+        "NoncurrentDays": 90
+      }
+    },
+    {
+      "ID": "expire-draft-30d",
+      "Status": "Enabled",
+      "Filter": {
+        "And": {
+          "Prefix": "far-art/",
+          "Tags": [
+            {
+              "Key": "stage",
+              "Value": "draft"
+            }
+          ]
+        }
+      },
+      "Expiration": {
+        "Days": 30
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "ListPrefixFarArtOnly",
+      "Effect": "Allow",
+      "Action": [
+        "s3:ListBucket",
+        "s3:GetBucketLocation",
+        "s3:ListBucketMultipartUploads"
+      ],
+      "Resource": "arn:aws:s3:::far-art-assets",
+      "Condition": {
+        "StringLike": {
+          "s3:prefix": [
+            "far-art",
+            "far-art/*"
+          ]
+        }
+      }
+    },
+    {
+      "Sid": "GetObjectsFarArtPrefix",
+      "Effect": "Allow",
+      "Action": [
+        "s3:GetObject",
+        "s3:GetObjectVersion",
+        "s3:GetObjectTagging"
+      ],
+      "Resource": "arn:aws:s3:::far-art-assets/far-art/*"
+    },
+    {
+      "Sid": "PutAndMultipartNoDelete",
+      "Effect": "Allow",
+      "Action": [
+        "s3:PutObject",
+        "s3:PutObjectTagging",
+        "s3:AbortMultipartUpload",
+        "s3:ListMultipartUploadParts"
+      ],
+      "Resource": "arn:aws:s3:::far-art-assets/far-art/*"
+    }
+  ]
+}

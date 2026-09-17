@@ -33,3 +33,17 @@ htmlcov/
 # We do NOT enforce that at git level (CI will), but we do keep
 # the root + tools/ + tests/ image-free as a hygiene rule.
 # Sheets/boards/examples MAY contain image files alongside their sheets.
+
+# DVC (Data Version Control)
+# DVC files (.dvc, .dvctable) are tracked by git; the data they
+# reference is NOT.
+.dvc/cache
+.dvc/tmp
+.dvc/lock
+.dvc/state
+.dvc/state.tmp
+.dvc/state.lock
+.dvc/updater
+.dvc/ignore
+dvc.lock
+dvc.yaml.lock

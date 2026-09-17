@@ -1,0 +1,10 @@
+[core]
+    remote = minio
+['remote "minio"']
+    url = s3://far-art
+    endpointurl = http://127.0.0.1:9000
+    use_ssl = false
+    region = us-east-1
+['remote "assetstore"']
+    url = s3://far-art-assets/far-art
+    region = eu-west-3
