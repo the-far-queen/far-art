@@ -1,0 +1,74 @@
+{
+ "medium": "still",
+ "tool_id": "commons-scan",
+ "seed_policy": "none",
+ "aspect": "669:502",
+ "resolution": {
+  "w": 669,
+  "h": 502
+ },
+ "color_mode": "rgb",
+ "print_or_screen": "both",
+ "hash_band": 1,
+ "line": "ink",
+ "weight": 1.0,
+ "value_range": {
+  "min": 0.05,
+  "max": 0.95
+ },
+ "chroma": 0.15,
+ "palette_lock": [],
+ "texture": "paper",
+ "grain": "medium",
+ "edge_policy": "hard",
+ "perspective": "2pt",
+ "lens_mm": null,
+ "camera_height": "eye",
+ "focal_subject": "Great Expectations",
+ "depth_layering": 3,
+ "scale_cues": [
+  "occlusion",
+  "atmospheric"
+ ],
+ "occlusion": true,
+ "anatomy_lock": "period-accurate",
+ "light_logic": "natural",
+ "key_dir": "side",
+ "contrast": 0.6,
+ "color_temp": 5200,
+ "practicals": [],
+ "shadow_hue": "#2b2b2b",
+ "exposure": "normal",
+ "lut_ref": null,
+ "composition_grid": "rule_of_thirds",
+ "reading_path": "z",
+ "symbol_allow": [],
+ "text_in_image": false,
+ "ui_density": "sparse",
+ "panel_grammar": null,
+ "continuity_ids": [],
+ "motif_ids": [
+  "dickens"
+ ],
+ "period_cite": "2012-08-29",
+ "work_cite": [
+  "Great Expectations"
+ ],
+ "school_cite": "book illustration",
+ "do_not_pastiche": [
+  "modern digital illustration",
+  "generic AI art"
+ ],
+ "culture_constraint": "reproduce the period plate; do not modernise",
+ "brand_kit_id": null,
+ "a11y_contrast": 4.5,
+ "forbidden_motifs": [],
+ "variant_of": null,
+ "upscale_policy": "none",
+ "inpaint_policy": "forbid",
+ "model_id": null,
+ "generator_may_propose": false,
+ "commit_asset": "gate",
+ "ground_touch": "allow",
+ "sheet_id": "698c579add9002af"
+}

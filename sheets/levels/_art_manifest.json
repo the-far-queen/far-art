@@ -1,0 +1,62 @@
+{
+ "dickens": {
+  "work": "Great Expectations",
+  "author": "Charles Dickens",
+  "images": [
+   {
+    "file": "dickens-01.jpg",
+    "bytes": 67742,
+    "title": "File:(ch. 11) \"He said, 'Aha! would you?' and began dancing backward and forward\".jpeg",
+    "commons": "https://commons.wikimedia.org/wiki/File:(ch._11)_%22He_said,_%27Aha!_would_you%3F%27_and_began_dancing_backward_and_forward%22.jpeg",
+    "licence": "Public domain",
+    "licence_status": "PUBLIC DOMAIN",
+    "artist": "Francis Arthur Fraser",
+    "date": "2012-08-29",
+    "sheet": "sheets\\levels\\dickens-01.sheet.json",
+    "sheet_id": "698c579add9002af"
+   },
+   {
+    "file": "dickens-02.jpg",
+    "bytes": 276182,
+    "title": "File:Dickens Great Expectations in Half Leather Binding.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Dickens_Great_Expectations_in_Half_Leather_Binding.jpg",
+    "licence": "CC BY 3.0",
+    "licence_status": "FREE (attribution required)",
+    "artist": "Jameslwoodward",
+    "date": "2012-06-22",
+    "sheet": "sheets\\levels\\dickens-02.sheet.json",
+    "sheet_id": "54e3a1af2b580264"
+   },
+   {
+    "file": "dickens-03.jpg",
+    "bytes": 438098,
+    "title": "File:Great Expectations Frontispiece.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Great_Expectations_Frontispiece.jpg",
+    "licence": "Public domain",
+    "licence_status": "PUBLIC DOMAIN",
+    "artist": "Charles Dickens",
+    "date": "1890",
+    "sheet": "sheets\\levels\\dickens-03.sheet.json",
+    "sheet_id": "11f571fc4a857414"
+   }
+  ]
+ },
+ "frankenstein": {
+  "work": "Frankenstein",
+  "author": "Mary Shelley",
+  "images": [
+   {
+    "file": "frankenstein-01.jpg",
+    "bytes": 343992,
+    "title": "File:Punch Anti-Irish propaganda (1882) Irish Frankenstein.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Punch_Anti-Irish_propaganda_(1882)_Irish_Frankenstein.jpg",
+    "licence": "Public domain",
+    "licence_status": "PUBLIC DOMAIN",
+    "artist": "John Tenniel",
+    "date": "20 May 1882 date QS:P571,+1882-05-20T00:00:00Z/11",
+    "sheet": "sheets\\levels\\frankenstein-01.sheet.json",
+    "sheet_id": "4e5bc31954641822"
+   }
+  ]
+ }
+}
